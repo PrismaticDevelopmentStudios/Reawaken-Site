@@ -1,0 +1,71 @@
+body {
+    background-image: url("../img/beans.jpeg");
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-family: "Red Hat Mono", monospace;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+p {
+    padding: 3%;
+}
+
+nav {
+    background-color: rgb(79, 112, 154);
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+nav a {
+    color: white;
+    margin-right: 1em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: gray;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.article {
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgba(255, 255, 255);
+    color: #000;
+    border-radius: 1rem;
+}
+
+.article p {
+    text-indent: 2em;
+}
+
+.overlay {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.fa-brain {
+    font-size: 3em;
+    color: pink;
+}
+
+.fa-coffee {
+    font-size: 3em;
+    color: saddlebrown;
+}
